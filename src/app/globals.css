@@ -2,26 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root{
+    background-color: rgb(1, 29, 20);
+    color: rgb(221, 255, 239);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* header */
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(4, 43, 30);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 23px;
+}
+nav ul li Link{
+    color: rgb(221, 255, 239);
+}
+nav ul li :hover{
+    color: rgb(132 204 22);
+    font-size: 1.04rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+i{
+    color: rgb(132 204 22);
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+
+/* footer */
+
+.footer{
+    background-color: rgb(4, 43, 30);
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer-div1{
+    color: rgb(167, 255, 167);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.footer-div2 p{
+    color: rgb(200, 245, 200);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.footer-div2 ul{
+    color: rgb(246, 255, 246);
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.footer-div3 p{
+    color: rgb(200, 245, 200);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.footer-div3 ul{
+    color: rgb(246, 255, 246);
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+.footer-bottom{
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+    background-color: rgb(16, 22, 15);
 }

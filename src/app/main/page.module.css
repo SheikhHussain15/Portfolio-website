@@ -1,0 +1,100 @@
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+
+.rightSection Image {
+    width: 80%;
+}
+
+.main .hr {
+    background: #bcb8ff;
+    height: 1.2xp;
+    margin: 40px 84px;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80%;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    background-color: white;
+    width: 1px;
+    height: 92px;
+    margin: 0 100px;
+}
+
+.developer {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -32px;
+    left: 120px;
+    border-radius: 3px;
+}
+
+.javascript {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -32px;
+    left: 120px;
+    border-radius: 3px;
+}
+
+.typescript {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -32px;
+    left: 120px;
+    border-radius: 3px;
+}
+
+.nextjs {
+    width: 29px;
+    height: 30px;
+    position: relative;
+    top: -32px;
+    left: 120px;
+    border-radius: 3px;
+}
+.verticalText {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    margin:0 8px ;
+}
+
+.verticalDisc {
+    position: relative;
+    top: 95px;
+    width: 150px;
+    color: gray;
+    font-size: 9px;
+}
